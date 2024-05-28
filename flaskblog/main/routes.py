@@ -15,3 +15,18 @@ def home():
 @main.route("/about")
 def about():
     return render_template('about.html', title='About')
+
+
+@main.route("/mission")
+def mission():
+    return render_template('mission.html', title='Mission')
+
+
+@main.route("/news")
+def news():
+    return render_template('news.html', title='News')
+
+
+@main.route("/announcement")
+def announcement():
+    return render_template('announcement.html', title='Announcement')
