@@ -1,80 +1,154 @@
+/* Overall layout */
 body {
-  background: #fafafa;
-  color: #333333;
-  margin-top: 5rem;
+  background: #023775bd; /* Dark background */
+  color: #000000; /* Light text */
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Font family */
+  line-height: 1.6; /* Better readability */
+  margin-top: 56px; /* Space for fixed navbar */
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #000000; /* Red-purple headings */
 }
 
-.bg-steel {
-  background-color: #5f788a;
+/* Navigation */
+.navbar {
+  background-color: #1f1f1f; /* Darker background for navigation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
 }
 
-.site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+.navbar-brand img {
+  height: 30px; /* Logo height */
+  width: auto; /* Maintain aspect ratio */
 }
 
-.site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+.navbar-nav .nav-link {
+  color: #000000; /* Light text for navigation links */
 }
 
-.site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+.navbar-nav .nav-link:hover {
+  color: #000000; /* Red-purple text on hover */
 }
 
+.navbar-nav .nav-link.active {
+  font-weight: 600; /* Bold font for active link */
+  color: #000000; /* Red-purple for active link */
+}
+
+/* Dropdown Menu */
+.nav-item .dropdown-menu {
+  background-color: #1f1f1f; /* Dark background for dropdown */
+  border: none; /* No border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
+}
+
+.nav-item .dropdown-item {
+  color: #ffffff; /* Light text for dropdown items */
+}
+
+.nav-item .dropdown-item:hover {
+  background-color: #bb86fc; /* Red-purple background on hover */
+  color: #ffffff; /* Dark text on hover */
+}
+
+/* Layout */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.main-content {
+  flex: 4; /* Increased flex value for wider content */
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  max-width: 250px; /* Maximum width for sidebar */
+}
+
+/* Content sections */
 .content-section {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
+  background: #01173fa9; /* Dark background for content sections */
+  padding: 55px; /* Padding for better spacing */
+  border-radius: 10px; /* Rounded corners for sections */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
+  margin-bottom: 30px; /* Bottom margin */
 }
 
+/* Article titles */
 .article-title {
-  color: #444444;
+  color: #bb86fc; /* Red-purple titles */
+  font-size: 2rem; /* Larger font size */
+  font-weight: 500; /* Medium weight */
 }
 
-a.article-title:hover {
-  color: #428bca;
-  text-decoration: none;
+.article-title:hover {
+  color: #e0e0e0; /* Light text on hover */
+  text-decoration: none; /* No underline */
 }
 
-.article-content {
-  white-space: pre-line;
-}
-
-.article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
-}
-
+/* Article metadata */
 .article-metadata {
-  padding-bottom: 1px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  padding-bottom: 10px; /* Bottom padding */
+  margin-bottom: 20px; /* Bottom margin */
+  border-bottom: 1px solid #373737; /* Dark border bottom */
+  font-size: 0.9rem; /* Smaller font size */
+  color: #b0bec5; /* Light gray color */
 }
 
 .article-metadata a:hover {
-  color: #333;
-  text-decoration: none;
+  color: #e0e0e0; /* Light text on hover */
+  text-decoration: none; /* No underline */
 }
 
-.article-svg {
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
+/* Images */
+.article-img {
+  height: 120px; /* Image height */
+  width: 120px; /* Image width */
+  border-radius: 50%; /* Circular images */
+  object-fit: cover; /* Maintain aspect ratio */
+  margin-right: 15px; /* Right margin */
 }
 
-.account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
+/* Buttons */
+.btn-purple {
+  background-color: #bb86fc; /* Red-purple button color */
+  border-color: #bb86fc; /* Red-purple button border color */
+  color: #121212; /* Dark text */
 }
 
-.account-heading {
-  font-size: 2.5rem;
+.btn-purple:hover {
+  background-color: #9c27b0; /* Darker red-purple on hover */
+  border-color: #9c27b0; /* Darker red-purple border on hover */
+}
+
+.btn-outline-purple {
+  color: #bb86fc; /* Red-purple text color */
+  border-color: #bb86fc; /* Red-purple border color */
+}
+
+.btn-outline-purple:hover {
+  color: #121212; /* Dark text on hover */
+  background-color: #bb86fc; /* Red-purple background on hover */
+  border-color: #9c27b0; /* Darker red-purple border on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f; /* Dark background for footer */
+  color: #e0e0e0; /* Light text */
+  padding: 20px 0; /* Vertical padding */
+  text-align: center; /* Centered text */
+  margin-top: 30px; /* Top margin */
+}
+
+footer a {
+  color: #000000; /* Red-purple links */
+}
+
+footer a:hover {
+  color: #000000; /* Darker red-purple on hover */
 }
