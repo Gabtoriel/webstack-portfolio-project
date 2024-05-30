@@ -1,5 +1,5 @@
 #!/bin/bash
 
 export FLASK_APP=run.py
-export MAIL_USERNAME=viclinstoriel@gmail.com
-export MAIL_PASSWORD="tqdv rvlj mtvg hqza"
+export EMAIL_USER=viclinstoriel@gmail.com
+export EMAIL_PASS="tqdv rvlj mtvg hqza"
