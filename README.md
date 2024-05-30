@@ -7,9 +7,11 @@ It allows users to create, read, update, and delete blog posts, offering a seaml
 
 </p>
 
-![image](https://github.com/Gabtoriel/webstack-portfolio-project/assets/99370798/7affdae9-f063-40c9-b815-6b7c7fe25140)
+![image](https://github.com/Gabtoriel/webstack-portfolio-project/assets/99370798/198df4f5-3560-45da-9111-61d11ca76e6d)
 
-![image](https://github.com/Gabtoriel/webstack-portfolio-project/assets/99370798/e9a799cd-b328-4e38-ae9d-3ce8fa6458fc)
+
+![image](https://github.com/Gabtoriel/webstack-portfolio-project/assets/99370798/fcc42f0b-6ee5-43e7-a6b2-6a35eae8a7fa)
+
 
 </p>
 
