@@ -118,12 +118,17 @@ It allows users to create, read, update, and delete blog posts, offering a seaml
        flask db upgrade
    </ul>
 
-<b>5. Start the Flask development server:</b>
+<b>5. Set environment variables:</b>
+   ```
+   source ./setup.sh
+   ```
+
+<b>6. Start the Flask development server:</b>
    ```
    flask run
    ```
 
-<b>6. Access the application in your web browser at</a> `http://localhost:5000`
+<b>7. Access the application in your web browser at</a> `http://localhost:5000`
 
 
 <h2>Usage</h2>
