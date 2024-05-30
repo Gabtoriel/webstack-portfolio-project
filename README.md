@@ -120,7 +120,7 @@ It allows users to create, read, update, and delete blog posts, offering a seaml
 
 <b>5. Set environment variables:</b>
    ```
-   source ./setup.sh
+   source ./setup
    ```
 
 <b>6. Start the Flask development server:</b>
